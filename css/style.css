@@ -681,9 +681,9 @@ h6 {
   color: #555186;
 }
 
-#why-us .counters {
+/* #why-us .counters {
   padding-top: 40px;
-}
+} */
 
 #why-us .counters span {
   font-family: "Montserrat", sans-serif;
@@ -705,7 +705,8 @@ h6 {
 --------------------------------*/
 
 #call-to-action {
-  background: #2d2b46;
+  background-color:#2d2b46 ;
+  /* background: #2d2b46; */
   background-size: cover;
   padding: 40px 0;
 }
@@ -1703,7 +1704,26 @@ section .section-title{
   background-color:rgb(27, 177, 220);
   color: #fff;
 }
-
-
+/* .Industries-sec{
+  background-image: url(/img/abstractbg-img.jpg);
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.Industries-sec .card{
+  background-color: transparent;
+}
+/* .overlay{
+  position: relative;
+}
+.overlay::before{
+  content:"";
+  position: absolute;
+  top:0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, .5);
+} */
 
 /* Industries*/
