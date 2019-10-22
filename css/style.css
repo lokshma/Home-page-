@@ -16,14 +16,14 @@ body {
 }
 
 a {
-  color: #1bb1dc;
+  color: #06afb6;
   transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #0a98c0;
+  color: #06afb6;
   outline: none;
   text-decoration: none;
 }
@@ -160,7 +160,7 @@ h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #1bb1dc;
+  color: #06afb6;
 }
 
 #topbar .social-links a:first-child {
@@ -668,7 +668,7 @@ h6 {
 }
 
 #why-us .why-us-content .features h4 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
   margin-left: 56px;
   color: #413e66;
@@ -948,7 +948,7 @@ h6 {
 }
 
 #testimonials .owl-dot.active {
-  background-color: #1bb1dc;
+  background-color: #06afb6;
 }
 
 /* Team Section
@@ -1711,7 +1711,10 @@ section .section-title{
   background-size: cover;
 } */
 .Industries-sec .card{
-  background-color: transparent;
+  background-color:transparent;
+}
+.Industries-sec{
+  background-color:hsl(193, 64%, 95%) ;
 }
 /* .overlay{
   position: relative;
@@ -1727,3 +1730,7 @@ section .section-title{
 } */
 
 /* Industries*/
+
+.section h3,h2{
+font-size: 28px;
+}
